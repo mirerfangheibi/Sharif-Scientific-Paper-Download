@@ -9,15 +9,22 @@ In this version, only IEEEXplore and ACM Digital Library, as two primary compute
 1- Download the master branch
 
 2- Unzip the downloaded zip
+
 3- Go to the 'Extensions' in Google Chrome
+
 4- Enable the developer mode
+
 5- Use the "Load unpacked" button to locate the previously extracted folder
+
 6- Enjoy!
 
 # Extending
 For adding the other publishers, after figuring the pattern of desired publisher's URL, follow the procedure below:
+
 1- Add the home directory of it to the "supported_publishers" array in the "popup.js".
+
 2- Add the equivalent semantak URL to the "supported_publishers_semantak" array in the "popup.js".
+
 3- Add a distinct "case" bounded to your wanted publisher to the "switch" statement in the "Download" function.
 
 # Disclaimer
