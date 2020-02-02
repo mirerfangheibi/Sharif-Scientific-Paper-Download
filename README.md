@@ -7,6 +7,7 @@ In this version, only IEEEXplore and ACM Digital Library, as two primary compute
 
 # Usage
 1- Download the master branch
+
 2- Unzip the downloaded zip
 3- Go to the 'Extensions' in Google Chrome
 4- Enable the developer mode
