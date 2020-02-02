@@ -1,0 +1,29 @@
+  {
+    "name": "Sharif Scientific Paper Download",
+    "description" : "This Google Chrome extension helps researchers and students of Sharif University of Technology (SUT) downloading scientific papers from publishers' websites using SUT's subscription within the university network. In this version, this extension supports downloading only from IEEEXplore and ACM Digital Library.",
+    "version": "2.1",
+    "manifest_version": 2,
+    "icons": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "64": "icons/icon64.png",
+      "128": "icons/icon128.png",
+      "256": "icons/icon256.png"
+    },
+    "browser_action": {
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "64": "icons/icon64.png",
+        "128": "icons/icon128.png",
+        "256": "icons/icon256.png"
+      },
+      "default_popup": "popup.html"
+      },
+      
+    "permissions": [
+       "tabs"
+     ]
+  }
